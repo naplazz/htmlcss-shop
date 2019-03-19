@@ -1,0 +1,33 @@
+* {box-sizing: border-box;}
+.row {
+  position: relative;
+}
+.img {
+  width: 250px;
+  height: 300px;
+  background-size: 250px 300px;
+  display: inline-block;
+  position: relative;
+
+}
+.img1 {
+  background-image: url(../img/pd1.jpg);
+}
+.img2 {
+  background-image: url(../img/pd2.jpg);
+}
+.img3 {
+  background-image: url(../img/pd3.jpg);
+}
+
+.img > span {
+  position: absolute;
+  right: 0;
+}
+
+.thirty {
+  background-color: green;
+}
+.five {
+  background-color: red;
+}
