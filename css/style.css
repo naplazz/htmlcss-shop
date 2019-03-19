@@ -2,6 +2,7 @@
 .row {
   position: relative;
 }
+/* stile di tutti i contenitori */
 .img {
   width: 250px;
   height: 300px;
@@ -10,6 +11,7 @@
   position: relative;
 
 }
+/* stile dei singoli contenitori */
 .img1 {
   background-image: url(../img/pd1.jpg);
 }
@@ -19,7 +21,7 @@
 .img3 {
   background-image: url(../img/pd3.jpg);
 }
-
+/* stile dello span */
 .img > span {
   position: absolute;
   right: 0;
