@@ -33,3 +33,15 @@
 .five {
   background-color: red;
 }
+
+span.flash {
+  font-size: 50px;
+  color:red;
+  position: absolute;
+  left: calc((100% - 50px) / 2);
+  bottom: 0;
+  display: none;
+}
+.img:hover span.flash {
+  display: block;
+}
